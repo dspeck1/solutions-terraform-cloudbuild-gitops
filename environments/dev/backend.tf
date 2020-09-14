@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "automate-me-21691-tfstate"
+    bucket = "automate-me-21691-tfstate-73"
     prefix = "env/dev"
   }
 }
